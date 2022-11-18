@@ -35,7 +35,7 @@ Around this guiding inquiry, we will try to answer the following subquestions:
 The finished and unfinished paths between Wikipedia source and target pages can be seen as a graph. Python package such as `networkx` package allows to analize the dataset as a graph and use tools of graph analysis (measure the centrality of each article (i.e. node) to determine its importance, find clusters...)
 
 **Semantic distance**
-Concepts proximity is quantified by the semantic distance, a non-symmetric metric that is created from the links Wikispeedia users make while trying to reach their target Wikipedia page. (peut être mettre un lien de l'article là non?)
+Concepts proximity is quantified by the semantic distance, a non-symmetric metric that is created from the links Wikispeedia users make while trying to reach their target Wikipedia page. [IPython magics](http://ipython.readthedocs.org/en/stable/interactive/magics.html)(peut être mettre un lien de l'article là non?)
 
 **People and countries informations**
 Defining characteristics of people and countries are extracted from the information box of their Wikipedia page using Beautiful soup. Further data is obtained from the associated Wikidata dataset.
